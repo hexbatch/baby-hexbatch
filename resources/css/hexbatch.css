@@ -3,11 +3,20 @@ body {
     margin: auto;
 }
 
+div.hex-parent {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  font-size: 1em;
+}
+
 div.hexbatch {
     width: 12em;
     height: 12em;
     padding: 1em;
-    margin: auto;
+    right: -1em;
+    position: relative;
     font-size: calc(2.0em + 1vh);
 }
 
@@ -45,3 +54,14 @@ div.hexbatch div.spoiler {
     width: 0;
     border-top: 2.5em solid #bcf2f5;
 }
+
+.afterthought {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3em;
+    background-color: pink;
+    border-radius: 1em; 
+    padding: 0.5em;
+    width:20em;   
+}
+
